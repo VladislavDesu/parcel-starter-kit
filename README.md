@@ -5,13 +5,25 @@
 ```bash
 - Scss
 - JavaScript
+- HTML
+- Lints
+- Parcel
 ```
 
 ## Commands
 
 ```bash
-npm run start        
-npm run build
+npm i - install all dependencies
+npm run start - start server for development     
+npm run build - build project
+npm run lint:html - checked html files .htmlhintrc
+npm run lint:style - checked styles files .stylelintrc
+npm run lint:style-fix - fix styles files .stylelintrc
+npm run lint:js - checked scripts files .eslintrc
+npm run lint:js-fix - fix scripts files .eslintrc
+npm run lint - checked html and styles and scripts files
+npm run lint-fix - fix styles and scripts files
+npm run prepare - install husky and setup pre-commit scripts (used after npm i automatically)
 ```
 
 ## BEM
