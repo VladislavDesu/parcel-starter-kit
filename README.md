@@ -14,7 +14,7 @@
 
 ```bash
 npm i - install all dependencies
-npm run start - start server for development     
+npm run start - start server development     
 npm run build - build project
 npm run lint:html - checked html files .htmlhintrc
 npm run lint:style - checked styles files .stylelintrc
