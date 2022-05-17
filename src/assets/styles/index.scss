@@ -1,0 +1,32 @@
+/*--------------------
+  INDEX STYLES
+--------------------*/
+
+// HELPERS
+// Variables and mixins
+@import "helpers/utils";
+
+// LIBS
+// external libraries
+@import "libs/normalize";
+
+// BASE
+// Base styles
+@import "base/fonts";
+@import "base/common";
+
+// COMPONENTS
+// Specific components like a slider, a loader, a widget
+@import "components/button";
+@import "components/container";
+@import "components/text";
+@import "components/title";
+
+// MODULES
+// Modules of the layout
+@import "modules/header";
+@import "modules/footer";
+
+// SECTIONS
+// Sections of the layout
+@import "sections/hero";
